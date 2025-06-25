@@ -1,0 +1,128 @@
+/* Introductie en character gallery styling */
+.intro-section {
+    max-width: 900px;
+    margin: 40px auto 32px auto;
+    padding: 32px;
+    background: #f8f9fa;
+    border-radius: 16px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+    font-size: 1.12rem;
+    line-height: 1.7;
+    color: #222;
+}
+.intro-section h1, .intro-section h2, .intro-section h3 {
+    color: #2a3a4a;
+    margin-top: 1.5em;
+}
+.intro-section ul {
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+}
+.intro-section .character-list {
+    columns: 2 300px;
+    gap: 32px;
+    margin-bottom: 1.5em;
+}
+.intro-section .character-list li {
+    break-inside: avoid;
+    margin-bottom: 1em;
+}
+@media (max-width: 700px) {
+    .intro-section {
+        padding: 16px;
+    }
+    .intro-section .character-list {
+        columns: 1;
+    }
+}
+.character-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    margin: 32px 0;
+}
+.character-image {
+    width: 220px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    background: #f4f4f4;
+    transition: transform 0.2s;
+}
+.character-image:hover {
+    transform: scale(1.04);
+}
+.character-profile {
+  max-width: 900px;
+  margin: 48px auto 32px auto;
+  background: #f8f9fa;
+  border-radius: 18px;
+  box-shadow: 0 2px 18px rgba(0,0,0,0.09);
+  padding: 32px 28px 32px 28px;
+  font-size: 1.08rem;
+  color: #222;
+}
+.character-profile-header {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 18px;
+}
+.character-profile-image {
+  width: 160px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.13);
+  background: #e9ecef;
+}
+.character-profile-summary h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  color: #2a3a4a;
+}
+.character-profile-summary p {
+  margin: 2px 0 0 0;
+}
+.character-profile-details h4 {
+  margin-top: 18px;
+  color: #3a4a5a;
+}
+.character-profile-details ul {
+  margin: 0 0 10px 1.2em;
+  padding: 0;
+}
+.character-profile-gallery {
+  display: flex;
+  gap: 14px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+.character-profile-thumb {
+  width: 80px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.10);
+  background: #f4f4f4;
+}
+@media (max-width: 700px) {
+  .character-profile-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .character-profile {
+    padding: 16px 6px 16px 6px;
+  }
+  .character-profile-image {
+    width: 100px;
+    height: 140px;
+  }
+  .character-profile-thumb {
+    width: 54px;
+    height: 74px;
+  }
+}

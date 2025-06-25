@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crystal Echoes - Story and Narrative</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .character {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .character img {
+            width: 150px; /* Adjust size as needed */
+            height: auto;
+            margin-right: 20px;
+        }
+        .world-image {
+            width: 100%;
+            height: auto;
+            margin: 20px 0;
+        }
+        .section {
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="section">
+        <h1>Crystal Echoes - Story and Narrative</h1>
+
+        <h2>3.1 Story Overview</h2>
+        <h3>Premise</h3>
+        <p><strong>Crystal Echoes</strong> takes place in the world of Crystallis, where massive crystals have provided magical energy to the world for millennia. In recent decades, the crystals have begun to fade, their power diminishing for unknown reasons...</p>
+
+        <h3>Themes</h3>
+        <ul>
+            <li>Balance vs. Progress</li>
+            <li>Identity and Purpose</li>
+            <li>Unity in Diversity</li>
+            <li>Legacy and Responsibility</li>
+            <li>Hope in Adversity</li>
+        </ul>
+
+        <h3>High-Level Story Arc</h3>
+        <p>The story unfolds across three major acts...</p>
+
+        <h2>3.2 Game World</h2>
+        <h3>World of Crystallis</h3>
+        <img src="https://via.placeholder.com/800x400" alt="World of Crystallis" class="world-image">
+        <p>Crystallis is a world where magic and technology coexist in an uneasy balance...</p>
+
+        <h2>3.3 Characters</h2>
+        <h3>Playable Characters</h3>
+
+        <div class="character">
+            <img src="C:\Users\japie\Downloads\nieuwEchoes\Character-designe\lyra_brightstone.png" alt="Lyra Brightstone">
+            <div>
+                <h4>Lyra Brightstone</h4>
+                <p>A young herbalist from a small village with a mysterious ability to hear "voices" from crystal fragments...</p>
+            </div>
+        </div>
+
+        <div class="character">
+            <img src="C:\Users\japie\Downloads\nieuwEchoes\Character-designe\cade_ironheart.png" alt="Cade Ironheart">
+            <div>
+                <h4>Cade Ironheart</h4>
+                <p>Former imperial engineer who defected after discovering the harmful effects of the Empire's crystal extraction methods...</p>
+            </div>
+        </div>
+
+        <div class="character">
+            <img src="C:\Users\japie\Downloads\nieuwEchoes\Character-designe\seraphina_valesong.png" alt="Seraphina Valesong">
+            <div>
+                <h4>Seraphina Valesong</h4>
+                <p>Last apprentice of the Crystal Sages, in hiding from the Empire...</p>
+            </div>
+        </div>
+
+        <div class="character">
+            <img src="C:\Users\japie\Downloads\nieuwEchoes\Character-designe\rook_stormchaser.png" alt="Rook Stormchaser">
+            <div>
+                <h4>Rook Stormchaser</h4>
+                <p>Sky pirate whose airship was powered by a rare crystal configuration before being shot down by the Empire...</p>
+            </div>
+        </div>
+
+        <div class="character">
+            <img src="C:\Users\japie\Downloads\nieuwEchoes\Character-designe\ember_ashwalker.png" alt="Ember Ashwalker">
+            <div>
+                <h4>Ember Ashwalker</h4>
+                <p>Last survivor of a nomadic tribe from the volcanic regions, seeking vengeance against the Empire...</p>
+            </div>
+        </div>
+
+        <div class="character">
+            <img src="C:\Users\japie\Downloads\nieuwEchoes\Character-designe\general_lysandra_ironside.png" alt="General Lysandra Ironside">
+            <div>
+                <h4>General Lysandra Ironside</h4>
+                <p>High-ranking imperial officer with secret doubts about the Empire's methods...</p>
+            </div>
+        </div>
+
+        <div class="character">
+            <img src="C:\Users\japie\Downloads\nieuwEchoes\Character-designe\thorne_nightshade.png" alt="Thorne Nightshade">
+            <div>
+                <h4>Thorne Nightshade</h4>
+                <p>Mysterious figure with the ability to step between dimensions, initially appearing as an antagonist...</p>
+            </div>
+        </div>
+
+        <div class="character">
+            <img src="C:\Users\japie\Downloads\nieuwEchoes\Character-designe\gaia_crystalborn.png" alt="Gaia Crystalborn">
+            <div>
+                <h4>Gaia Crystalborn</h4>
+                <p>A being created directly from crystal energy, awakened by the dimensional disturbances...</p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
