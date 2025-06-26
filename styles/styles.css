@@ -101,8 +101,8 @@
   flex-wrap: wrap;
 }
 .character-profile-thumb {
-  width: 80px;
-  height: 110px;
+  width: 180px;
+  height: auto;
   object-fit: cover;
   border-radius: 8px;
   box-shadow: 0 1px 6px rgba(0,0,0,0.10);
